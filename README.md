@@ -7,15 +7,15 @@ GIT es un sistema de control de versiones distribuido, libre y de código abiert
 
 ## Comandos básicos
 
-- git init                  || Crea un repositorio de GIT vacío.
-- git clone <path>          || Clona un repositorio dentro del directorio desde el cual se invoca.
-- git add <files>           || Agrega los archivos especificados al índice y prepara para hacer commit. Reemplazando <files> con un "." agregamos todos los archivos que están en el árbol del proyecto (que estén excluídos del arhivo .gitignore).
-- git status                || Muestra el estado del árbol del proyecto.
-- git commit -m "<msg>"     || Crea un nuevo commit con un mensaje descriptivo. Dicho de otra forma, guarda los cambios en el repositorio y le asigna un mensaje descriptivo a ese nuevo punto en nuestro historial de versiones.
-- git checkout              || Acceder a un punto en específico del historial de versiones.
-- git switch -              || Acceder al punto anterior al actual. Es decir, si con checkout fui a cierto punto, con este comando vuelvo a dónde estaba.
-- git log                   || Ver todo el historial de commits.
-- git push                  || Actualizar el repositorio remoto con todos los cambios locales.
+- **git init**                  --> Crea un repositorio de GIT vacío.
+- **git clone <path>**          --> Clona un repositorio dentro del directorio desde el cual se invoca.
+- **git add <files>**           --> Agrega los archivos especificados al índice y prepara para hacer commit. Reemplazando <files> con un "." agregamos todos los archivos que están en el árbol del proyecto (que estén excluídos del arhivo .gitignore).
+- **git status**                --> Muestra el estado del árbol del proyecto.
+- **git commit -m "<msg>"**     --> Crea un nuevo commit con un mensaje descriptivo. Dicho de otra forma, guarda los cambios en el repositorio y le asigna un mensaje descriptivo a ese nuevo punto en nuestro historial de versiones.
+- **git checkout**              --> Acceder a un punto en específico del historial de versiones.
+- **git switch -**              --> Acceder al punto anterior al actual. Es decir, si con checkout fui a cierto punto, con este comando vuelvo a dónde estaba.
+- **git log**                   --> Ver todo el historial de commits.
+- **git push**                  --> Actualizar el repositorio remoto con todos los cambios locales.
 
 # ¿Qué es GitHub?
 
