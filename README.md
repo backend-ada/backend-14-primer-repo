@@ -2,10 +2,11 @@
 
 GIT es un sistema de control de versiones distribuido, libre y de código abierto, diseñado para manejar desde pequeños hasta enormes proyectos con eficiencia y velocidad.
 
-- WINDOWS --> Necesario instalar desde la web oficial: https://git-scm.com/.
-- LINUX|MAC --> Instalado por defecto.
+- **WINDOWS** --> Necesario instalar desde la web oficial. Ver links de ayuda.
+- **MAC** --> Necesario instalar desde la web oficial. Ver links de ayuda.
+- **LINUX** --> Instalado por defecto.
 
-## Comandos básicos
+### Comandos básicos
 
 - **git init**                  --> Crea un repositorio de GIT vacío.
 - **git clone <path>**          --> Clona un repositorio dentro del directorio desde el cual se invoca.
@@ -23,27 +24,27 @@ GitHub es una plataforma que ofrece un servicio basado en la nube para el desarr
 
 # Instrucciones
 
-## ¿Cómo configurar las llaves SSH?
+### ¿Cómo configurar las llaves SSH?
 
 Para poder subir y administrar los repositorios de GIT en la nube de GitHub, necesitamos realizar una configuración básica de seguridad que nos permita el acceso privado a nuestra cuenta de GitHub.
 Para esto, tenemos que realizar los siguientes pasos:
 
 - Crear un par de llaves SSH pública/privada de forma local:
 
-    1. Abrir la terminal del sistema operativo que estén usando y ejecutar el comando *ssh-keygen -t rsa*.
-    2. Desde la terminal, ir a la carpeta donde se acaban de generar el par de llaves con el comando cd <ruta>.
-    3. Con el comando *cat* imprimir en la terminal el contenido de *id_rsa.pub*.
+    * Abrir la terminal del sistema operativo que estén usando y ejecutar el comando *ssh-keygen -t rsa*.
+    * Desde la terminal, ir a la carpeta donde se acaban de generar el par de llaves con el comando cd <ruta>.
+    * Con el comando *cat* imprimir en la terminal el contenido de *id_rsa.pub*.
 
 - Asociar la llave pública local con la cuenta de GitHub:
 
-    1. Copiar la llave pública impresa en el punto anterior.
-    2. Ir a la configuración de la cuenta de GitHub *GitHub Profile* --> *Settings* --> *SSH and GPG keys*.
-    3. Crear una nueva entrada SSH *New SSH key*:
-        * En *title* pongan un nombre que les recuerde a la PC donde estén trabajando.
-        * En *key* tienen que pegar la llave pública.
-        * Por último clickear en *Add SSH key*.
+    * Copiar la llave pública impresa en el punto anterior.
+    * Ir a la configuración de la cuenta de GitHub *GitHub Profile* --> *Settings* --> *SSH and GPG keys*.
+    * Crear una nueva entrada SSH *New SSH key*:
+        - En *title* pongan un nombre que les recuerde a la PC donde estén trabajando.
+        - En *key* tienen que pegar la llave pública.
+        - Por último clickear en *Add SSH key*.
 
-#### LINKS DE AYUDA
+### LINKS DE AYUDA
 
 - DOCUMENTACIÓN OFICIAL         --> https://git-scm.com/docs
 - ENTREVISTA LINUS TORVALDS     --> https://www.youtube.com/watch?v=o8NPllzkFhE&t=465s
